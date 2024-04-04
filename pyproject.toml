@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "hyperhdr-py-redux"
-version = "0.7.6"
+version = "0.7.7"
 description = "Hyperion Ambient Lighting Python Package"
 authors = ["Andrew Kennedy <andrewk36@gmail.com>"]
 classifiers = [

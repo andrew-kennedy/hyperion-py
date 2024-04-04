@@ -632,8 +632,8 @@ async def test_is_on(
     assert hc.is_on(components=[const.KEY_COMPONENTID_BLACKBORDER])
     assert not hc.is_on(components=[const.KEY_COMPONENTID_FORWARDER])
     assert not hc.is_on(components=[const.KEY_COMPONENTID_BOBLIGHTSERVER])
-    assert not hc.is_on(components=[const.KEY_COMPONENTID_GRABBER])
-    assert hc.is_on(components=[const.KEY_COMPONENTID_V4L])
+    assert not hc.is_on(components=[const.KEY_COMPONENTID_SYSTEMGRABBER])
+    assert hc.is_on(components=[const.KEY_COMPONENTID_VIDEOGRABBER])
     assert hc.is_on(components=[const.KEY_COMPONENTID_LEDDEVICE])
 
     # Verify combinations.
@@ -648,7 +648,7 @@ async def test_is_on(
     assert not hc.is_on(
         components=[
             const.KEY_COMPONENTID_ALL,
-            const.KEY_COMPONENTID_GRABBER,
+            const.KEY_COMPONENTID_SYSTEMGRABBER,
             const.KEY_COMPONENTID_BLACKBORDER,
         ]
     )
