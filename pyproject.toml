@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "hyperion-py"
+name = "hyperhdr-py-redux"
 version = "0.7.6"
 description = "Hyperion Ambient Lighting Python Package"
-authors = ["Dermot Duffy <dermot.duffy@gmail.com>"]
+authors = ["Andrew Kennedy <andrewk36@gmail.com>"]
 classifiers = [
     "Intended Audience :: Developers",
     "Programming Language :: Python :: 3.8",
@@ -15,7 +15,7 @@ keywords = [
     "hyperion",
 ]
 license = "MIT"
-repository = "https://github.com/dermotduffy/hyperion-py"
+repository = "https://github.com/andrew-kennedy/hyperion-py"
 include = ["hyperion/py.typed", "LICENSE"]
 readme = "README.md"
 packages = [
